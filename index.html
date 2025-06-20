@@ -1,0 +1,592 @@
+<!doctype html>
+<html lang="en">
+	<!-- data-fls-cursor -->
+	<head>
+		<style data-fls-preloader="false" rel="preload">
+			body > *:not(.fls-preloader) {opacity: 0;visibility: hidden;}[data-fls-preloader-loaded] body > *:not(.fls-preloader) {transition: opacity 0.5s ease 0s;opacity: 1;visibility: visible;}
+		</style>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<meta name="keywords" content="Cosmic Tourism">
+		<meta name="description" content="A modern space-themed website with animations and parallax effects for an immersive visual experience.">
+		<meta property="og:site_name" content="serhiykonovalov.github.io/Cosmic-Tourism/">
+		<meta property="og:title" content="Cosmic Tourism">
+		<meta property="og:description" content="A modern space-themed website with animations and parallax effects for an immersive visual experience.">
+		<meta property="og:image" content="./assets/img/og_image/cosmic-tourism.png">
+		<title>Cosmic Tourism</title>
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1750414868307"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1750414868307">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header" data-fls-watcher="" data-fls-header="" data-fls-header-scroll="">
+				<div class="header__container">
+					<div class="header__logo">
+						<a href="#" class="header__logo-link" data-fls-scrollto=".hero">
+							<img src="./assets/img/logo.svg" class="header__logo-img" alt="logo">
+						</a>
+					</div>
+					<div class="header__menu menu">
+						<button type="button" data-fls-menu="" class="menu__icon icon-menu" aria-label="menu button">
+							<span></span>
+						</button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<button data-fls-scrollto=".about" class="menu__link">About</button>
+								</li>
+								<li class="menu__item">
+									<button data-fls-scrollto=".team" class="menu__link">Team</button>
+								</li>
+								<li class="menu__item">
+									<button data-fls-scrollto=".offers" class="menu__link">Offers</button>
+								</li>
+								<li class="menu__item">
+									<button data-fls-scrollto=".explore" class="menu__link">Explore</button>
+								</li>
+								<li class="menu__item">
+									<button data-fls-scrollto=".guide" class="menu__link">Guide</button>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<!--
+<fetch url="@components/layout/menu/menu.js?v=1750414868307on">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+					<div class="header__search">
+						<button class="header__search-icon --icon-search" aria-label="Search" title="Search"></button>
+						<input type="text" class="header__search-input" placeholder="Search..." data-fls-input="">
+					</div>
+					<button class="header__button button button" type="button" data-fls-button="" data-fls-scrollto=".book">Book Trip</button>
+				</div>
+			</header>
+			<main class="page page--home">
+				<section class="hero" data-fls-watcher="navigator" data-fls-watcher-once="" data-fls-watcher-threshold="0.2">
+					<div class="hero__container">
+						<h1 class="hero__title">Travel Beyond Earth</h1>
+						<div class="hero__image-wr" data-fls-parallax-parent="">
+							<div class="hero__image">
+								<picture>
+									<source media="(max-width: 800px)" srcset="./assets/img/hero/image-800.webp" type="image/webp">
+									<img alt="Cosmic image" data-fls-parallax="" data-fls-parallax-coefficient="-12" src="./assets/img/hero/image.webp">
+								</picture>
+							</div>
+						</div>
+						<button class="hero__button button button--double-arrow --icon-double-arrow" data-fls-button="" data-fls-scrollto=".book">Get started</button>
+						<div class="hero__socials">
+							<a href="#" class="hero__social --icon-twitter" aria-label="twitter"></a>
+							<a href="#" class="hero__social --icon-facebook" aria-label="facebook"></a>
+							<a href="#" class="hero__social --icon-linkedin" aria-label="linkedin"></a>
+						</div>
+						<div class="hero__glow"></div>
+					</div>
+				</section>
+				<div class="combined-sections combined-sections--01">
+					<article class="about" data-fls-watcher="navigator">
+						<div class="about__wrapper" data-fls-watcher="" data-fls-watcher-once="" data-fls-watcher-threshold="0.2">
+							<div class="about__container">
+								<div class="about__content">
+									<h2 class="about__title title title--bigger">Take Off Into the Stars</h2>
+									<div class="about__text">
+										<p>
+											Forem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem.
+										</p>
+									</div>
+									<div class="about__buttons">
+										<a href="#" class="about__button button button--border">Details</a>
+										<a href="#" class="about__button button">Launch</a>
+									</div>
+								</div>
+								<div class="about__glow"></div>
+							</div>
+							<div class="about__planets" data-fls-parallax-parent="">
+								<div class="about__planet about__planet--01">
+									<picture>
+										<img alt="Planet big" data-fls-parallax="" data-fls-parallax-coefficient="-18" src="./assets/img/about/planet-01.webp">
+									</picture>
+								</div>
+								<div class="about__planet about__planet--02">
+									<picture>
+										<img alt="Planet small" data-fls-parallax="" data-fls-parallax-coefficient="-10" src="./assets/img/about/planet-02.webp">
+									</picture>
+								</div>
+								<div class="about__planet about__planet--03">
+									<picture>
+										<img alt="Planet small" data-fls-parallax="" data-fls-parallax-coefficient="-12" src="./assets/img/about/planet-03.webp">
+									</picture>
+								</div>
+							</div>
+						</div>
+					</article>
+					<section class="advantages" data-fls-watcher="">
+						<div class="advantages__container" data-fls-watcher="" data-fls-watcher-once="" data-fls-watcher-threshold="0.3">
+							<div class="advantages__items">
+								<div class="advantages__item">
+									<img src="./assets/img/advantages/01.svg" class="advantages__icon" alt="icon">
+									<h4 class="advantages__title">Expert Astronauts</h4>
+									<div class="advantages__text">
+										<p>Jorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+									</div>
+								</div>
+								<div class="advantages__item">
+									<img src="./assets/img/advantages/02.svg" class="advantages__icon" alt="icon">
+									<h4 class="advantages__title">Personalized Adventures</h4>
+									<div class="advantages__text">
+										<p>Jorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+									</div>
+								</div>
+								<div class="advantages__item">
+									<img src="./assets/img/advantages/03.svg" class="advantages__icon" alt="icon">
+									<h4 class="advantages__title">Zero Gravity Fun</h4>
+									<div class="advantages__text">
+										<p>Jorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+									</div>
+								</div>
+								<div class="advantages__item">
+									<img src="./assets/img/advantages/04.svg" class="advantages__icon" alt="icon">
+									<h4 class="advantages__title">Unmatched Safety</h4>
+									<div class="advantages__text">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+				<div class="combined-sections combined-sections--02">
+					<section class="team" data-fls-watcher="navigator">
+						<div class="team__container" data-fls-watcher="" data-fls-watcher-once="" data-fls-watcher-threshold="0.4">
+							<h2 class="team__title title">The Astronauts of Our Adventure: Meet the Team</h2>
+							<div data-fls-tabs="" data-fls-tabs-hash="" class="team__tabs tabs-team">
+								<nav data-fls-tabs-titles="" class="tabs-team__navigation">
+									<button type="button" class="tabs-team__title --tab-active">All</button>
+									<button type="button" class="tabs-team__title">Zylaran Vexor</button>
+									<button type="button" class="tabs-team__title">Threxis N'alor</button>
+									<button type="button" class="tabs-team__title">Xylozar K'thar</button>
+									<button type="button" class="tabs-team__title">Virok Tal’mor</button>
+									<button type="button" class="tabs-team__title">Zarathis Or'dan</button>
+									<button type="button" class="tabs-team__title">Ilithra Velon</button>
+								</nav>
+								<div data-fls-tabs-body="" class="tabs-team__content">
+									<div class="tabs-team__body">
+										<div data-fls-slider="" class="team__slider swiper">
+											<div class="team__wrapper swiper-wrapper">
+												<div class="team__slide card-team swiper-slide">
+													<div class="card-team__image">
+														<picture>
+															<img alt="Zylaran Vexor" src="./assets/img/team/01.webp">
+														</picture>
+													</div>
+													<div class="card-team__name">Zylaran Vexor</div>
+													<div class="card-team__position">Galactic Travel Director</div>
+												</div>
+												<div class="team__slide card-team swiper-slide">
+													<div class="card-team__image">
+														<picture>
+															<img alt="Threxis N'alor" src="./assets/img/team/02.webp">
+														</picture>
+													</div>
+													<div class="card-team__name">Threxis N'alor</div>
+													<div class="card-team__position">Zero Gravity Specialist</div>
+												</div>
+												<div class="team__slide card-team swiper-slide">
+													<div class="card-team__image">
+														<picture>
+															<img alt="Xylozar K'thar" src="./assets/img/team/03.webp">
+														</picture>
+													</div>
+													<div class="card-team__name">Xylozar K'thar</div>
+													<div class="card-team__position">Cosmic Expedition Leader</div>
+												</div>
+												<div class="team__slide card-team swiper-slide">
+													<div class="card-team__image">
+														<picture>
+															<img alt="Virok Tal’mor" src="./assets/img/team/04.webp">
+														</picture>
+													</div>
+													<div class="card-team__name">Virok Tal’mor</div>
+													<div class="card-team__position">Celestial Events Coordinator</div>
+												</div>
+												<div class="team__slide card-team swiper-slide">
+													<div class="card-team__image">
+														<picture>
+															<img alt="Zarathis Or'dan" src="./assets/img/team/05.webp">
+														</picture>
+													</div>
+													<div class="card-team__name">Zarathis Or'dan</div>
+													<div class="card-team__position">Astro-Adventurer Consultant</div>
+												</div>
+												<div class="team__slide card-team swiper-slide">
+													<div class="card-team__image">
+														<picture>
+															<source media="(max-width: 800px)" srcset="./assets/img/team/06-800.webp" type="image/webp">
+															<img alt="Ilithra Velon" src="./assets/img/team/06.webp">
+														</picture>
+													</div>
+													<div class="card-team__name">Ilithra Velon</div>
+													<div class="card-team__position">Dancing master</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tabs-team__body">
+										<div class="card-team">
+											<div class="card-team__image">
+												<picture>
+													<img alt="Zylaran Vexor" src="./assets/img/team/01.webp">
+												</picture>
+											</div>
+											<div class="card-team__name">Zylaran Vexor</div>
+											<div class="card-team__position">Galactic Travel Director</div>
+										</div>
+									</div>
+									<div class="tabs-team__body">
+										<div class="card-team">
+											<div class="card-team__image">
+												<picture>
+													<img alt="Threxis N'alor" src="./assets/img/team/02.webp">
+												</picture>
+											</div>
+											<div class="card-team__name">Threxis N'alor</div>
+											<div class="card-team__position">Zero Gravity Specialist</div>
+										</div>
+									</div>
+									<div class="tabs-team__body">
+										<div class="card-team">
+											<div class="card-team__image">
+												<picture>
+													<img alt="Xylozar K'thar" src="./assets/img/team/03.webp">
+												</picture>
+											</div>
+											<div class="card-team__name">Xylozar K'thar</div>
+											<div class="card-team__position">Cosmic Expedition Leader</div>
+										</div>
+									</div>
+									<div class="tabs-team__body">
+										<div class="card-team">
+											<div class="card-team__image">
+												<picture>
+													<img alt="Virok Tal’mor" src="./assets/img/team/04.webp">
+												</picture>
+											</div>
+											<div class="card-team__name">Virok Tal’mor</div>
+											<div class="card-team__position">Celestial Events Coordinator</div>
+										</div>
+									</div>
+									<div class="tabs-team__body">
+										<div class="card-team">
+											<div class="card-team__image">
+												<picture>
+													<img alt="Zarathis Or'dan" src="./assets/img/team/05.webp">
+												</picture>
+											</div>
+											<div class="card-team__name">Zarathis Or'dan</div>
+											<div class="card-team__position">Astro-Adventurer Consultant</div>
+										</div>
+									</div>
+									<div class="tabs-team__body">
+										<div class="card-team">
+											<div class="card-team__image">
+												<picture>
+													<source media="(max-width: 800px)" srcset="./assets/img/team/06-800.webp" type="image/webp">
+													<img alt="Ilithra Velon" src="./assets/img/team/06.webp">
+												</picture>
+											</div>
+											<div class="card-team__name">Ilithra Velon</div>
+											<div class="card-team__position">Dancing master</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section class="offers" data-fls-watcher="navigator">
+						<div class="offers__container" data-fls-watcher="" data-fls-watcher-once="" data-fls-watcher-threshold="0.2">
+							<div class="offers__header">
+								<div class="offers__suptitle">Best Offers</div>
+								<h2 class="offers__title title">Explore Our Cosmic Adventures</h2>
+							</div>
+							<div class="offers__items">
+								<a href="#" class="offers__item item-offers item-offers--double">
+									<div class="item-offers__image">
+										<picture>
+											<img alt="Offer image" src="./assets/img/offers/01.webp">
+										</picture>
+									</div>
+									<div class="item-offers__content">
+										<div class="item-offers__label">Suborbital Flight</div>
+										<div class="item-offers__bottom">
+											<div class="item-offers__price">$500,000</div>
+											<div class="item-offers__time">1 hour</div>
+										</div>
+									</div>
+								</a>
+								<a href="#" class="offers__item item-offers">
+									<div class="item-offers__image">
+										<picture>
+											<img alt="Offer image" src="./assets/img/offers/02.webp">
+										</picture>
+									</div>
+									<div class="item-offers__content">
+										<div class="item-offers__label">Orbital Adventure</div>
+										<div class="item-offers__bottom">
+											<div class="item-offers__price">$2,000,000</div>
+											<div class="item-offers__time">3 days</div>
+										</div>
+									</div>
+								</a>
+								<a href="#" class="offers__item item-offers">
+									<div class="item-offers__image">
+										<picture>
+											<img alt="Offer image" src="./assets/img/offers/03.webp">
+										</picture>
+									</div>
+									<div class="item-offers__content">
+										<div class="item-offers__label">Moon Landing</div>
+										<div class="item-offers__bottom">
+											<div class="item-offers__price">$5,000,000</div>
+											<div class="item-offers__time">7 days</div>
+										</div>
+									</div>
+								</a>
+								<a href="#" class="offers__item item-offers">
+									<div class="item-offers__image">
+										<picture>
+											<img alt="Offer image" src="./assets/img/offers/04.webp">
+										</picture>
+									</div>
+									<div class="item-offers__content">
+										<div class="item-offers__label">Asteroid Belt Adventure</div>
+										<div class="item-offers__bottom">
+											<div class="item-offers__price">$9,000,000</div>
+											<div class="item-offers__time">8 days</div>
+										</div>
+									</div>
+								</a>
+								<a href="#" class="offers__item item-offers">
+									<div class="item-offers__image">
+										<picture>
+											<img alt="Offer image" src="./assets/img/offers/05.webp">
+										</picture>
+									</div>
+									<div class="item-offers__content">
+										<div class="item-offers__label">Comet Chase Expedition</div>
+										<div class="item-offers__bottom">
+											<div class="item-offers__price">$12,000,000</div>
+											<div class="item-offers__time">12 days</div>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="offers__glow"></div>
+						</div>
+					</section>
+				</div>
+				<div class="explore" data-fls-watcher="navigator">
+					<div class="explore__container">
+						<article class="explore__article article-explore" data-fls-watcher="" data-fls-watcher-once="" data-fls-watcher-threshold="0.3">
+							<div class="article-explore__image-wr" data-fls-parallax-parent="">
+								<div class="article-explore__image article-explore__image--01">
+									<picture>
+										<img alt="Explore image" data-fls-parallax="" data-fls-parallax-coefficient="-20" src="./assets/img/explore/image-01.webp">
+									</picture>
+								</div>
+							</div>
+							<div class="article-explore__content">
+								<div class="article-explore__suptitle">cosmic Essentials</div>
+								<h2 class="article-explore__title title">Choose Your Space Adventure!</h2>
+								<div class="article-explore__text">
+									<p>
+										Forem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex.
+									</p>
+								</div>
+								<a href="#" class="article-explore__button button button--border-arrow --icon-arrow">
+									<span>Read more</span>
+								</a>
+							</div>
+						</article>
+						<article class="explore__article article-explore" data-fls-watcher="" data-fls-watcher-once="" data-fls-watcher-threshold="0.3">
+							<div class="article-explore__image-wr" data-fls-parallax-parent="">
+								<div class="article-explore__image article-explore__image--02">
+									<picture>
+										<img alt="Explore image" data-fls-parallax="" data-fls-parallax-coefficient="20" src="./assets/img/explore/image-02.webp">
+									</picture>
+								</div>
+							</div>
+							<div class="article-explore__content">
+								<div class="article-explore__suptitle">cosmic Essentials</div>
+								<h2 class="article-explore__title title">Prepare for Launch!</h2>
+								<div class="article-explore__text">
+									<p>
+										Porem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+									</p>
+								</div>
+								<a href="#" class="article-explore__button button button--border-arrow --icon-arrow">
+									<span>Read more</span>
+								</a>
+							</div>
+						</article>
+						<article class="explore__article article-explore" data-fls-watcher="" data-fls-watcher-once="" data-fls-watcher-threshold="0.3">
+							<div class="article-explore__image-wr" data-fls-parallax-parent="">
+								<div class="article-explore__image article-explore__image--03">
+									<picture>
+										<img alt="Explore image" data-fls-parallax="" data-fls-parallax-coefficient="-20" src="./assets/img/explore/image-03.webp">
+									</picture>
+								</div>
+							</div>
+							<div class="article-explore__content">
+								<div class="article-explore__suptitle">cosmic Essentials</div>
+								<h2 class="article-explore__title title">Blast Off and Explore the Cosmos</h2>
+								<div class="article-explore__text">
+									<p>
+										Porem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+									</p>
+								</div>
+								<a href="#" class="article-explore__button button button--border-arrow --icon-arrow">
+									<span>Read more</span>
+								</a>
+							</div>
+						</article>
+						<div class="explore__glow"></div>
+					</div>
+				</div>
+				<section class="guide" data-fls-watcher="navigator">
+					<div class="guide__container">
+						<div class="guide__title-wr" data-fls-watcher="" data-fls-watcher-once="" data-fls-watcher-threshold="0.3">
+							<h2 class="guide__title title">A Visual Guide to Cosmic Exploration</h2>
+						</div>
+						<div class="guide__items">
+							<div class="guide__item item-guide" data-fls-watcher="" data-fls-watcher-once="" data-fls-watcher-threshold="0.3">
+								<div class="item-guide__video">
+									<video src="./assets/video/video.mov" poster="./assets/img/guide/image-01.jpg"></video>
+									<button class="item-guide__play --icon-play" aria-label="play button"></button>
+									<div class="item-guide__time">2.30 min</div>
+								</div>
+								<h3 class="item-guide__title">The Future of Space Tourism: What to Expect</h3>
+								<div class="item-guide__text">
+									<p>Morem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</div>
+							</div>
+							<div class="guide__item item-guide" data-fls-watcher="" data-fls-watcher-once="" data-fls-watcher-threshold="0.3">
+								<div class="item-guide__video">
+									<video src="./assets/video/video.mov" poster="./assets/img/guide/image-02.jpg"></video>
+									<button class="item-guide__play --icon-play" aria-label="play button"></button>
+									<div class="item-guide__time">4.30 min</div>
+								</div>
+								<h3 class="item-guide__title">Top 10 Destinations in the Cosmos You Must Visit</h3>
+								<div class="item-guide__text">
+									<p>Porem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</div>
+							</div>
+							<div class="guide__item item-guide" data-fls-watcher="" data-fls-watcher-once="" data-fls-watcher-threshold="0.3">
+								<div class="item-guide__video">
+									<video src="./assets/video/video.mov" poster="./assets/img/guide/image-03.jpg"></video>
+									<button class="item-guide__play --icon-play" aria-label="play button"></button>
+									<div class="item-guide__time">5.30 min</div>
+								</div>
+								<h3 class="item-guide__title">The Science Behind Space Travel: How We Make It Safe</h3>
+								<div class="item-guide__text">
+									<p>Morem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</div>
+							</div>
+						</div>
+						<div class="guide__button" data-fls-watcher="" data-fls-watcher-once="" data-fls-watcher-threshold="0.3">
+							<a href="#" class="button button--border">Watch more...</a>
+						</div>
+					</div>
+				</section>
+				<section class="book" data-fls-watcher="navigator">
+					<div class="book__container" data-fls-watcher="" data-fls-watcher-once="" data-fls-watcher-threshold="0.2">
+						<div class="book__body">
+							<h2 class="book__title title">Book Your Cosmic Journey Now</h2>
+							<div class="book__subtitle">Traveler Details:</div>
+							<form action="#" data-fls-form="dev" class="book__form" method="POST">
+								<div class="book__input-wr">
+									<input data-fls-input="" required type="text" name="form[fullname]" placeholder="Full Name" class="book__input input">
+								</div>
+								<div class="book__input-wr">
+									<input data-fls-input="" required type="text" name="form[contant]" autocomplete="off" placeholder="Contact info" class="book__input input">
+								</div>
+								<div class="book__input-wr">
+									<input data-fls-input="" required type="text" name="form[destination]" autocomplete="off" placeholder="Destination" class="book__input input">
+								</div>
+								<div class="book__input-wr">
+									<input data-fls-input="" required data-fls-input-mask="9999-9999-9999" type="text" name="form[passengers]" autocomplete="off" placeholder="Number of passengers" class="book__input input">
+								</div>
+								<div class="book__textarea-wr">
+									<textarea data-fls-input="" required data-fls-input-autoheight="" autocomplete="off" name="form[special-requests]" placeholder="Special Requests" class="book__textarea input"></textarea>
+								</div>
+								<div class="book__button-wr">
+									<button type="submit" class="book__button button">Contact me</button>
+								</div>
+							</form>
+						</div>
+						<div class="book__image-wr" data-fls-parallax-parent="">
+							<div class="book__image">
+								<picture>
+									<img alt="Image" data-fls-parallax="" data-fls-parallax-coefficient="-20" src="./assets/img/book/image.webp">
+								</picture>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer data-fls-footer="" class="footer" data-fls-watcher="" data-fls-watcher-once="" data-fls-watcher-threshold="0.3">
+				<div class="footer__container">
+					<div class="footer__column">
+						<div class="footer__logo">
+							<a href="#" class="footer__logo-link" data-fls-scrollto=".hero">
+								<img src="./assets/img/logo.svg" class="footer__logo-img" alt="logo">
+							</a>
+						</div>
+						<div class="footer__text">
+							<p>Get out there & discover your next cosmic journey!</p>
+						</div>
+						<div class="footer__copy">Copyright 2025 Cosmic Tourism, Inc. Terms & Privacy</div>
+					</div>
+					<div class="footer__column">
+						<div class="footer__nav nav-footer">
+							<h4 class="nav-footer__title">More on The Blog</h4>
+							<ul class="nav-footer__list">
+								<li class="nav-footer__item">
+									<a href="#" class="nav-footer__item-link">About Cosmic Tourism</a>
+								</li>
+								<li class="nav-footer__item">
+									<a href="#" class="nav-footer__item-link">Contributors & Writers</a>
+								</li>
+								<li class="nav-footer__item">
+									<a href="#" class="nav-footer__item-link">Write For Us</a>
+								</li>
+								<li class="nav-footer__item">
+									<a href="#" class="nav-footer__item-link">Contact Us</a>
+								</li>
+								<li class="nav-footer__item">
+									<a href="#" class="nav-footer__item-link">Privacy Policy</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__nav nav-footer">
+							<h4 class="nav-footer__title">More on Cosmic Tourism</h4>
+							<ul class="nav-footer__list">
+								<li class="nav-footer__item">
+									<a href="#" class="nav-footer__item-link">The Team</a>
+								</li>
+								<li class="nav-footer__item">
+									<a href="#" class="nav-footer__item-link">Jobs</a>
+								</li>
+								<li class="nav-footer__item">
+									<a href="#" class="nav-footer__item-link">Press</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<img src="./assets/img/icons/rocket.svg" class="rocket" alt="rocket" data-fls-rocket="">
+	</body>
+</html>
